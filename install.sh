@@ -49,7 +49,7 @@ install_repo() {
         if [ ! -d "klipper-backup" ]; then
             loading_wheel "${Y}●${NC} Installing Klipper-Backup" &
             loading_pid=$!
-            git clone https://github.com/Staubgeborener/klipper-backup.git 2>/dev/null
+            git clone https://github.com/B1nus/Klipper-Backup.git 2>/dev/null
             chmod +x ./klipper-backup/script.sh
             cp ./klipper-backup/.env.example ./klipper-backup/.env
             sleep .5
