@@ -1,26 +1,5 @@
 # Klipper-Backup 💾
-Klipper-Backup is a script for manual or automated GitHub backups. It's Lightweight, pragmatic and comfortable.
-
-This is a fork to stop it from removing files before doing a backup.
+Klipper-Backup is a fork of [klipper-backup](https://github.com/Staubgeborener/klipper-backup) with one minor difference, it does not remove any files from the remote. This means that you can have other stuff in your backup repository. This was useful for my [minitron project](https://github.com/B1nus/minitron).
 
 ## Installation
-
-### Download:
-```shell
-curl -fsSL get.klipperbackup.xyz | bash
-```
-
-### Installation/Configuration:
-```shell
-~/klipper-backup/install.sh
-```
-
-## RTFM
-I would suggest reading the [docs](https://klipperbackup.xyz), as this provides detailed step-by-step instructions and further tips.
-
-## YouTube
-There are several YouTube videos about Klipper-Backup - thanks to everyone!
-
-* [ModBot: This Klipper Add-on Could Save You! (Klipper-Backup)](https://www.youtube.com/watch?v=47qV9BE2n_Y)
-
-* [Minimal 3DP: The Ultimate Guide to Using Klipper Macros to Backup Your Configuration Files](https://www.youtube.com/watch?v=J4_dlCtZY48)
+Check out [klipper-backup](https://github.com/Staubgeborener/klipper-backup?tab=readme-ov-file#installation).
