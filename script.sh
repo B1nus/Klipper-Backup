@@ -260,4 +260,4 @@ fi
 git push -u origin "$branch_name"
 
 # Remove files except .git folder after backup so that any file deletions can be logged on next backup
-find "$backup_path" -maxdepth 1 -mindepth 1 ! -name '.git' ! -name 'README.md' -exec rm -rf {} \;
+# find "$backup_path" -maxdepth 1 -mindepth 1 ! -name '.git' ! -name 'README.md' -exec rm -rf {} \;
