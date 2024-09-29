@@ -1,6 +1,8 @@
 # Klipper-Backup 💾
 Klipper-Backup is a script for manual or automated GitHub backups. It's Lightweight, pragmatic and comfortable.
 
+This is a fork to stop it from removing files before doing a backup.
+
 ## Installation
 
 ### Download:
